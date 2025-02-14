@@ -6,3 +6,8 @@ titulo.innerHTML = 'Hora del Desafío';
 function mostarMensajeEnLaConsola() {
     console.log('El botón fue clicado!')
 }
+// 4. 
+function mostrarAlerta() {
+    let ciudad = prompt("Por favor, ingresa el nombre de una ciudad de Brasil:");
+    alert("Estuve en " + ciudad + " y me acordé de ti.");
+}
